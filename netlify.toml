@@ -1,0 +1,20 @@
+[build]
+  command = ""
+  publish = "."
+  functions = "functions"
+
+[dev]
+  command = ""
+  target = "deploy-preview"
+  port = 8080
+
+[context.production.environment]
+  DEPLOY_URL = "https://votre-site.netlify.app"
+
+[context.deploy-preview.environment]
+  DEPLOY_URL = "https://votre-site.netlify.app"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
