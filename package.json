@@ -1,0 +1,10 @@
+{
+  "name": "site-vitrine",
+  "version": "1.0.0",
+  "description": "Site vitrine professionnel",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx http-server -p 8080"
+  },
+  "devDependencies": {}
+}
