@@ -291,11 +291,6 @@ a {
   line-height: 1.8;
 }
 
-.presentation-image img {
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-}
-
 /* ===== Products ===== */
 .products {
   background: var(--color-bg-alt);
@@ -583,16 +578,11 @@ a {
     font-size: 1.8rem;
   }
 
-  .products-grid,
-  .horaires-grid {
+  .products-grid {
     grid-template-columns: 1fr;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .contact-form {
-    padding: 24px;
   }
 
   .whatsapp-btn {
