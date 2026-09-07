@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://site-vitrine-6pac-qk7tkbp0f-andrewbekaiiandrew-6765.vercel.app/sitemap.xml
