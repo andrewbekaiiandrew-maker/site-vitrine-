@@ -349,48 +349,6 @@ a {
   line-height: 1.6;
 }
 
-/* ===== Horaires ===== */
-.horaires {
-  background: var(--color-white);
-}
-
-.horaires-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.horaires-item {
-  background: var(--color-bg-alt);
-  padding: 32px 24px;
-  border-radius: var(--radius-lg);
-  text-align: center;
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-}
-
-.horaires-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-}
-
-.horaires-day {
-  display: block;
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--color-bg-dark);
-  margin-bottom: 8px;
-}
-
-.horaires-time {
-  display: block;
-  font-size: 1rem;
-  color: var(--color-primary);
-  font-weight: 500;
-}
-
 /* ===== Contact ===== */
 .contact {
   background: var(--color-bg-alt);
@@ -400,7 +358,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  align-items: start;
+  align-items: center;
 }
 
 .contact-info {
@@ -430,42 +388,6 @@ a {
 .contact-item p {
   font-size: 0.95rem;
   color: var(--color-text-light);
-}
-
-.contact-form {
-  background: var(--color-white);
-  padding: 40px;
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 14px 16px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  font-family: var(--font-family);
-  font-size: 0.95rem;
-  color: var(--color-text);
-  background: var(--color-white);
-  transition: var(--transition);
-  outline: none;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
 }
 
 /* ===== Footer ===== */
@@ -609,10 +531,6 @@ a {
   }
 
   .products-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .horaires-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
